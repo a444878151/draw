@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T13:50:16.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="epdoFGQ3UA5u5YFJYbKW" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T13:52:02.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="D_RWtXfK6H3nVVJ6A0Kl" version="21.3.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -21,8 +21,8 @@
         <mxCell id="wxBs8Z7nVsmHyRdSl5QE-1" value="是否已&lt;br&gt;完成技术方案&lt;br&gt;评审" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="40" y="50" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wxBs8Z7nVsmHyRdSl5QE-9" value="提交钉钉审批结束流程。&lt;br&gt;再启动时重新走一遍新需求流程" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="15" y="170" width="140" height="60" as="geometry" />
+        <mxCell id="wxBs8Z7nVsmHyRdSl5QE-9" value="提交钉钉审批结束流程。&lt;br&gt;重新启动时可根据间隔时间内判断是否重新走一遍新需求流程" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="17.5" y="170" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wxBs8Z7nVsmHyRdSl5QE-17" value="提交钉钉审批" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="16" y="290" width="120" height="60" as="geometry" />
