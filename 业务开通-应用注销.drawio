@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T02:41:42.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.3" etag="2fUN3QHgiRhcc-ulNK0x" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T02:54:35.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UXHzRcBFxyjVNN78UUnW" version="21.6.3" type="github">
   <diagram name="第 1 页" id="e0zolzPZdaSJ-suGNlM9">
-    <mxGraphModel>
+    <mxGraphModel dx="896" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ON9rttKSmu833aW8qugW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ON9rttKSmu833aW8qugW-1" target="ON9rttKSmu833aW8qugW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-1" value="API" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ON9rttKSmu833aW8qugW-2" target="ON9rttKSmu833aW8qugW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-2" value="SPA" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ON9rttKSmu833aW8qugW-3" target="ON9rttKSmu833aW8qugW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-9" value="调用业务方接口进行业务注销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ON9rttKSmu833aW8qugW-8">
+          <mxGeometry x="0.2828" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ON9rttKSmu833aW8qugW-3" target="ON9rttKSmu833aW8qugW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ON9rttKSmu833aW8qugW-3" target="ON9rttKSmu833aW8qugW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-12" value="删除业务开通应用信息，并记录到删除表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ON9rttKSmu833aW8qugW-11">
+          <mxGeometry x="-0.0909" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ON9rttKSmu833aW8qugW-3" target="ON9rttKSmu833aW8qugW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-15" value="记录业务日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ON9rttKSmu833aW8qugW-14">
+          <mxGeometry x="0.4176" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-3" value="业务开通" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-6" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-7" value="业务方接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ON9rttKSmu833aW8qugW-13" value="业务日志" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="590" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
